@@ -1,0 +1,537 @@
+<!doctype html>
+<html>
+    <head>
+    <title>Experiment4_Part2</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- css part -->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+    }
+    #gl-canvas {
+        width: 100%;
+        height: 100%;
+    }
+    #test{
+        color: red;
+        position: absolute;
+        left: 5px;
+        top: 5px;
+        font-size: 30px;
+    }
+    
+    .hidden {
+        display : none !important;
+    }
+    
+    .tree1-cursor{
+        cursor : url(images/tree1-cursor.png),auto; 
+    }
+    
+    .tree2-cursor{
+        cursor : url(images/tree2-cursor.png),auto; 
+    }
+    
+    .tree3-cursor{
+        cursor : url(images/tree3-cursor.png),auto; 
+    }
+    
+    .windmill-cursor{
+        cursor : url(images/windmill-cursor.png),auto;
+    }
+    
+    .solar-panel1-cursor{
+        cursor : url(images/solar-panel1-cursor.png),auto;
+    }
+    
+    .solar-panel2-cursor{
+        cursor : url(images/solar-panel2-cursor.png),auto;
+    }
+    
+</style>
+<link rel="stylesheet" href="css/loader.css">
+<link rel="stylesheet" href="css/scroll-paper.css">
+<link rel="stylesheet" href="css/banner.css">
+<link rel="stylesheet" href="css/footer.css">
+    
+</head>
+
+
+<body >
+    
+<canvas  id="gl-canvas"></canvas>
+
+<!-- loader -->
+<div class="loader">
+    <img src="gif/load-gif.gif" alt="gif">
+</div>
+
+<!-- scroll paper -->
+<div id="scroll-paper" class="scroll-paper-container">
+    <div class="scroll-paper">
+        
+        <p>Welcome to the enviropolis.</p>
+        <p>For starting the game click a car in the scene or"free car button".</p>
+        <p>Build something with your points</p>
+        <p>You can change the location of the building which you have built</p>
+        <p>Fill the bars via building</p>
+        
+        <p>"esc" => toggle scroll paper</p>
+        <p>"1" => change shader</p>
+        <p>"2" => toggle 2x game speed</p>
+        <p>"Arrow keys" => camera Movement</p>
+        <p>"v" => turn on mouse camera control</p>
+        <p>"c" => turn off mouse camera control</p>
+        
+    </div>
+</div>
+
+<!-- navbar -->
+<div class="banner-container">
+    <div class="banner">
+        
+        <div class="logo">
+            <img src="images/logo.png" alt="enviropolis"/>
+        </div>
+        
+        
+        <div class="bar-container">
+            
+            <div class="airProgress-container">
+                <span>Air :</span>
+                
+                <div id="airProgress">
+                    <div id="airBar"></div>
+                </div>
+            </div>
+            
+            <div class="energyProgress-container">
+                <span>Energy :</span>
+                <div id="energyProgress">
+                    <div id="energyBar"></div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+        <div class="leaf-container">
+            <img src="images/leaf.png" alt="leaf"/>
+            
+            <span id="money">4000.00</span>
+        </div>
+        
+    </div>
+    
+    <div class="next-car-button-container" >
+        <button class="btn-top" type="button" onclick="GoToFreeCar()">Go to a Free Car</button>
+        <button class="btn-top" type="button" onclick="openLightMenu()">Open/Close the Light Menu</button>
+    </div>
+    
+    <div class="building-menu-container hidden">
+        <div class="rotate-menu-container">
+            
+            <div class="building-menu">
+                <p>RotateY: <span id="rotateY-span">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider" id="rotateY-slider"/>
+            </div>
+            <div class="building-menu red-color">
+                <p>RotateX: <span id="rotateX-span">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider" id="rotateX-slider"/>
+            </div>
+            <div class="building-menu red-color">
+                <p>RotateZ: <span id="rotateZ-span">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider" id="rotateZ-slider"/>
+            </div>
+        </div>
+        
+        <div class="translate-menu-container">
+            
+            <div class="building-menu">
+                <p>TranslateX: <span id="translateX-span">0</span></p>
+                <input type="range" min="-20" max="20" value="0" class="slider" id="translateX-slider"/>
+            </div>
+            <div class="building-menu">
+                <p>TranslateZ: <span id="translateZ-span">0</span></p>
+                <input type="range" min="-20" max="20" value="0" class="slider" id="translateZ-slider"/>
+            </div>
+            <div class="building-menu red-color">
+                <p>TranslateY: <span id="translateY-span">0</span></p>
+                <input type="range" min="-20" max="20" value="0" class="slider" id="translateY-slider"/>
+            </div>
+        </div>
+    </div>
+    
+    <!-- light menu -->
+    <div class="building-menu-container-light hidden">
+        
+        <div class="translate-menu-container">
+            <div class="building-menu">
+                <p>Intensity: <span id="span-light-intensity">10</span></p>
+                <input type="range" min="5" max="15" value="10" class="slider-light" id="slider-light-intensity"/>
+            </div>
+            <div class="building-menu">
+                <p>LiAngle: <span id="span-light-angle">0</span></p>
+                <input type="range" min="90" max="180" value="150" class="slider-light" id="slider-light-angle"/>
+            </div>
+            <button class="btn-top" type="button" onclick="toggleLight()">Open/Close the Light Source</button>
+        </div>
+        
+        <div class="rotate-menu-container">
+            
+            <div class="building-menu">
+                <p>RotateY: <span id="rotateY-span-light">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider-light" id="rotateY-slider-light"/>
+            </div>
+            <div class="building-menu">
+                <p>RotateX: <span id="rotateX-span-light">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider-light" id="rotateX-slider-light"/>
+            </div>
+            <div class="building-menu">
+                <p>RotateZ: <span id="rotateZ-span-light">0</span></p>
+                <input type="range" min="-180" max="180" value="0" class="slider-light" id="rotateZ-slider-light"/>
+            </div>
+        </div>
+        
+        <div class="translate-menu-container">
+            
+            <div class="building-menu">
+                <p>TranslateX: <span id="translateX-span-light">0</span></p>
+                <input type="range" min="-60" max="60" value="0" class="slider-light" id="translateX-slider-light"/>
+            </div>
+            <div class="building-menu">
+                <p>TranslateZ: <span id="translateZ-span-light">0</span></p>
+                <input type="range" min="-60" max="60" value="0" class="slider-light" id="translateZ-slider-light"/>
+            </div>
+            <div class="building-menu">
+                <p>TranslateY: <span id="translateY-span-light">0</span></p>
+                <input type="range" min="-60" max="60" value="0" class="slider-light" id="translateY-slider-light"/>
+            </div>
+        </div>
+
+    </div>
+    
+    
+</div>
+
+<!-- footer -->
+<div class="footer-container">
+    <div class="footer">
+        
+        <div class="toggle-car hidden">
+            <img src="images/van.png" alt="alt"/>
+        </div>
+        <div class="car-menu hidden">
+            <div class="buy-car">
+                <img src="images/van.png" alt="araba"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> <span id="car-price-id"></span></span>
+                </div>
+            </div>
+            <div class="toggle-tree">
+                <img src="images/tree1.png" alt="agac"/>
+            </div>
+            <div class="windmill">
+                <img src="images/windmill.png" alt="gul"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 5000</span>
+                    
+                </div>
+            </div>
+            <div class="toggle-solar-panel">
+                <img src="images/solar-panel1.png" alt="panel"/>
+            </div>
+        </div>
+        
+        <div class="tree-menu hidden">
+            <div class="tree3">
+                <img src="images/tree3.png" alt="tree1"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 500</span>
+                    
+                </div>
+            </div>
+            <div class="tree2">
+                <img src="images/tree2.png" alt="tree2"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 300</span>
+                    
+                </div>
+            </div>
+            <div class="tree1">
+                <img src="images/tree1.png" alt="tree3"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 200</span>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <div class="store-menu hidden">
+            <div>
+                <button class="btn" type="button" onclick="sellCargo()">
+                    Sell 
+                    <span id="sellCargo"></span>
+                </button>
+                
+            </div>
+            <div>
+                <button class="btn" type="button" onclick="buildCargo()">Build <span id="buildCargo"></span></button>
+            </div>
+        </div>
+        
+        <div class="solar-panel-menu hidden">
+            <div class="solar-panel2">
+                <img src="images/solar-panel2.png" alt="tree1"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 3000</span>
+                </div>
+            </div> 
+            <div class="solar-panel1">
+                <img src="images/solar-panel1.png" alt="tree1"/>
+                <div class="priceContainer">
+                    <span class="price"><img src="images/leaf.png" alt="alt"/> 7000</span>
+                   
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+   
+<script id="vertex-shader" type="x-shader/x-vertex">#version 300 es
+
+in  vec4 vPosition;
+in vec3 vNormal;
+
+in vec2 vTexCoord;
+out vec2 fTexCoord; 
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+uniform vec3 lightPosition;
+uniform vec3 at;
+uniform mat4 u_matrix;
+
+out vec3 fL;
+out vec3 fN;
+out vec3 fH;
+out vec3 fat;
+out float dist;
+
+void main() 
+{
+    
+    // the P point on the obje
+    vec3 pos = (u_matrix * vPosition).xyz;
+    
+    //fixed light postion   
+    vec3 light = lightPosition.xyz;
+    fL = normalize( light - pos );
+    
+    vec3 E = normalize( -pos );
+    fH = normalize( fL + E );
+    
+    vec4 NN = vec4(vNormal,0);
+    // change type of Normal vec3 to vec4 to...
+    // Transform vertex normal into eye coordinates
+    fN = normalize( (u_matrix*NN).xyz);
+    
+    fat = normalize(at);
+    
+    gl_Position =  projectionMatrix*modelViewMatrix*u_matrix*vPosition;   
+    fTexCoord = vTexCoord;
+    
+    float x = distance(pos,lightPosition);
+    dist = 1.0/(1.0+0.0001*x+0.0001*x*x);
+
+}
+</script>
+ 
+<script id="fragment-shader" type="x-shader/x-fragment">#version 300 es
+precision highp float;
+
+out vec4 oColor;
+
+in vec2 fTexCoord;
+in vec3 fN;
+in vec3 fL;
+in vec3 fH;
+in vec3 fat;
+in float dist;
+
+uniform sampler2D sampler;
+uniform vec4 diffuseProduct,ambientProduct,specularProduct;
+uniform float shininess;
+uniform vec4 selectingColorFactor;
+uniform float angle;
+uniform float lightIntensity;
+
+void main()
+{
+    vec4 ambient = ambientProduct;
+    
+    //float Kd = max( dot(fL, fN), 0.0 );
+
+    float Kd ;
+    if(dot(fL,fat) < angle ){
+        Kd = abs( dot(fL, fN) );
+    }else{
+        Kd = 0.0;
+    }
+    vec4  diffuse = Kd*diffuseProduct;
+    
+    // calculate specular 
+    float Ks = pow( max(dot(fN, fH), 0.0), shininess );
+    vec4  specular = Ks * specularProduct;
+    
+    
+    if( dot(fL, fN) < 0.0 ) {
+	specular = vec4(0.0, 0.0, 0.0, 1.0);
+    }  
+     
+        
+    oColor = ((diffuse+specular)*dist*(lightIntensity/10.0) + ambient ) * selectingColorFactor * texture(sampler, fTexCoord);
+    oColor.a = 1.0;
+}
+</script>
+ 
+
+<!-- toon shading  -->
+
+
+<script id="vertex-shader2" type="x-shader/x-vertex">#version 300 es
+
+in  vec4 vPosition;
+in vec3 vNormal;
+
+in vec2 vTexCoord;
+out vec2 fTexCoord; 
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+uniform vec3 lightPosition;
+uniform vec3 at;
+uniform mat4 u_matrix;
+
+out vec3 fL;
+out vec3 fN;
+out vec3 fat;
+
+void main() 
+{
+    
+    // the P point on the obje
+    vec3 pos = (u_matrix * vPosition).xyz;
+    
+    //fixed light postion   
+    vec3 light = lightPosition.xyz;
+    fL = normalize( light - pos );
+    
+    vec4 NN = vec4(vNormal,0);
+    // change type of Normal vec3 to vec4 to...
+    // Transform vertex normal into eye coordinates
+    fN = normalize( (NN).xyz);
+
+    fat = normalize(at);
+    
+    gl_Position =  projectionMatrix*modelViewMatrix*u_matrix*vPosition;   
+    fTexCoord = vTexCoord;
+    
+
+}
+</script>
+ 
+<script id="fragment-shader2" type="x-shader/x-fragment">#version 300 es
+precision highp float;
+
+out vec4 oColor;
+
+in vec2 fTexCoord;
+in vec3 fN;
+in vec3 fL;
+in vec3 fat;
+
+uniform sampler2D sampler;
+uniform vec4 selectingColorFactor;
+uniform float angle;
+uniform float lightIntensity;
+uniform float toggleLight;
+
+void main()
+{
+    
+    float Kd ;
+    if(dot(fL,fat) < angle ){
+        Kd = abs( dot(fL, fN) );
+    }else{
+        Kd = 0.0;
+    }
+    
+    if (Kd > 0.98){
+        oColor =  vec4(0.8, 0.8, 1.0, 1.0)*(lightIntensity/10.0) * selectingColorFactor *toggleLight* texture(sampler, fTexCoord);
+    }else if(Kd > 0.88){
+        oColor = vec4(0.4, 0.4, 0.8, 1.0)*(lightIntensity/10.0) * selectingColorFactor *toggleLight* texture(sampler, fTexCoord);
+    }else if(Kd > 0.55){
+        oColor = vec4(0.2, 0.2, 0.4, 1.0) * (lightIntensity/10.0) *selectingColorFactor * toggleLight*texture(sampler, fTexCoord);
+    }else{
+        oColor = vec4(0.1, 0.1, 0.1, 1.0) *  (lightIntensity/10.0) *selectingColorFactor *toggleLight* texture(sampler, fTexCoord);
+    }
+    
+    oColor.a = 1.0;
+}
+</script>
+
+<!--  picking -->
+
+<script id="pickingVS" type="x-shader/x-fragment">#version 300 es
+precision highp float;
+
+in  vec4 vPosition;
+
+uniform mat4 modelViewMatrix;
+uniform mat4 projectionMatrix;
+
+uniform mat4 u_matrix;
+
+void main()
+{
+    gl_Position =  projectionMatrix*modelViewMatrix*u_matrix*vPosition;
+}
+</script>
+
+<script id="pickingFS" type="x-shader/x-fragment">#version 300 es
+precision highp float;
+
+uniform vec4 u_id;
+
+out vec4 oColor;
+
+void main()
+{
+    oColor = u_id;
+}
+</script>
+ 
+ 
+   
+<script type="text/javascript" src="js/webgl-utils.js"></script>
+<script type="text/javascript" src="js/initShaders.js"></script>
+<script type="text/javascript" src="js/MV.js"></script>
+<script type="text/javascript" src="js/createObject.js"></script>
+<script type="text/javascript" src="js/bellmanFord.js"></script>
+<script type="text/javascript" src="js/node-graph.js"></script>
+<script type="text/javascript" src="js/createGraph.js"></script>
+<script type="text/javascript" src="js/pickable.js"></script>
+<script type="text/javascript" src="js/DOM.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>

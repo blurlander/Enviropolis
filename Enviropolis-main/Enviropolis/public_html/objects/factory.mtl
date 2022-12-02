@@ -1,0 +1,167 @@
+# Blender MTL File: 'proje-2.1.blend'
+# Material Count: 15
+
+newmtl Fondo
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.063271 0.014680 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\MetalBare0100_1_S.jpg
+
+newmtl K_BuildingsA_02
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\K_BuildingsA_02.jpg
+
+newmtl K_BuildingsA_04
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\K_BuildingsA_04.jpg
+
+newmtl New_Material
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\(BRICK-11)-wall-dark-grunge-building-texture.jpg
+
+newmtl New_Material_1
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\tileable_roof_texture_by_bhaskar655-d756o5u2.jpg
+
+newmtl New_Material_3
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\maxresdefault.jpg
+
+newmtl TexturesCom_Aircos0002_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_Aircos0002_S.jpg
+
+newmtl TexturesCom_BrickLargeSpecial0131_2_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_Fiberglass0027_S.jpg
+
+newmtl TexturesCom_DoorsMedieval0353_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_DoorsMedieval0353_S.jpg
+
+newmtl TexturesCom_DoorsRollup0044_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_DoorsRollup0044_S.jpg
+
+newmtl TexturesCom_Plastic0101_1_seamless_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_Plastic0101_1_seamless_S.jpg
+
+newmtl TexturesCom_WindowsBacklit0051_1_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_MetalScratches0021_M.jpg
+
+newmtl TexturesCom_WindowsBhhacklit0051_1_S
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\TexturesCom_WindowsBacklit0051_1_S.jpg
+
+newmtl sci_fi_metal_base
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\f8572dc05fc235ba2e47f6302fa7006e.jpg
+
+newmtl wall
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\Factory\\Textures\\wall.jpg

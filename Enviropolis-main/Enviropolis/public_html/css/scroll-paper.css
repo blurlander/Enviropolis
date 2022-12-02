@@ -1,0 +1,34 @@
+.scroll-paper-container{
+    position: fixed;
+    left: 0;
+    top: 0;
+        
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Indie Flower', cursive ;
+    font-size: 1.2rem;
+    
+    z-index: 9;
+}
+.scroll-paper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+
+    background-image: url("../images/scroll-paper.png");
+    background-size: cover;
+    background-position: center;
+    
+    width: 65vw;
+    height: 85vh;
+    
+    padding: 150px;
+    
+}
+
+.scroll-paper p {
+    margin-left: 50px;
+}
+

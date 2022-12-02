@@ -1,0 +1,68 @@
+# Blender MTL File: 'proje-2.1.blend'
+# Material Count: 6
+
+newmtl Chrome
+Ns 570.588225
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.824313
+Ks 0.959478 0.959478 0.959478
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\solar\\solar4\\screentexture001.png
+
+newmtl black_screen
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.029928 0.029928 0.029928
+Ks 0.380636 0.380636 0.380636
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\solar\\solar4\\screentexture001.png
+
+newmtl blue_emission
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.067254 0.117075 0.413867
+Ks 0.441462 0.441462 0.441462
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\solar\\solar4\\screentexture001.png
+
+newmtl blue_solar_panels
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.321364 0.409056 0.640000
+Ks 0.340591 0.340591 0.340591
+Ke 0.000000 0.000000 0.000000
+Ni 1.400000
+d 0.700000
+illum 9
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\solar\\solar4\\solarpaneltexture001.png
+
+newmtl gray_metal
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.091948 0.089405 0.089405
+Ks 0.374201 0.374201 0.374201
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\solar\\solar4\\screentexture001.png
+
+newmtl gray_metal_NONE
+Ns 96.078443
+Ka 1.000000 1.000000 1.000000
+Kd 0.091948 0.089405 0.089405
+Ks 0.374201 0.374201 0.374201
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd c\\grass.jpg

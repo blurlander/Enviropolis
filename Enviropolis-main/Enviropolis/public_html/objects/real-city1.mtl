@@ -1,0 +1,575 @@
+# Blender MTL File: 'proje-2.1.blend'
+# Material Count: 52
+
+newmtl Default_OBJ
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\kule\\base kule\\build_DefaultMaterial_diff.png
+
+newmtl Material
+Ns 175.173013
+Ka 1.000000 1.000000 1.000000
+Kd 0.035457 0.027780 0.013881
+Ks 0.254902 0.254902 0.254902
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd c\\grass.jpg
+
+newmtl Rock_1_
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\Rock_1_.png
+
+newmtl _11_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_11_tree.png
+
+newmtl _12_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_12_tree.png
+
+newmtl _3_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_3_tree.png
+
+newmtl _4_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_4_tree.png
+
+newmtl _6_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_6_tree.png
+
+newmtl _9_tree
+Ns 179.999996
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\ağaç\\tree\\_9_tree.png
+
+newmtl ciudadortogonal-ACONDICIONADORes
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-ACONDICIONADORes.png
+
+newmtl ciudadortogonal-CALLE1mod
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-CALLE1mod1.jpg
+
+newmtl ciudadortogonal-CALLE1mod.22
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-CALLE1mod22.jpg
+
+newmtl ciudadortogonal-CALLE2mod
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-CALLE2mod.jpg
+
+newmtl ciudadortogonal-VEREDA1mod
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-VEREDA1mod.jpg
+
+newmtl closetelectrico-detechos
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortclosetelectricotecho.png
+
+newmtl grass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\TexturesCom_Grass0131_2_M.jpg
+
+newmtl hospitalladoventanas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\hospitalladoventanas.png
+
+newmtl hospitaltecho
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\hospitaltecho.png
+
+newmtl hospitaltechomod
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\hospitaltecho-mod.png
+
+newmtl orto-edificio22-adosolocemento
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\orto-edificio22-adosolocemento.png
+
+newmtl orto-edificio22-ladoventanas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\orto-edificio22-ladoventanas.png
+
+newmtl orto-edificio22-techoybase
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\orto-edificio22-techoybase.png
+
+newmtl ortocasuchadetecho-allparts
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortocasuchadetecho-allparts.png
+
+newmtl ortocity
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ciudadortogonal-MOD.jpg
+
+newmtl ortoedificio-frontal-frontal
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.319767 0.319767 0.319767
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificio-frontal-frontal.png
+
+newmtl ortoedificio-frontal-frontal-GLASS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificio-frontal-frontal.png
+
+newmtl ortoedificioceleste-frontal
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificioceleste-frontal-MOD.png
+
+newmtl ortoedificioceleste-lado
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificioceleste-lado.png
+
+newmtl ortoedificioceleste-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificioceleste-techo.png
+
+newmtl ortoedificioceleste-techo.mod
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificioceleste-techo-mod.jpg
+
+newmtl ortoedificiocontechorojo-ladoventanas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiocontechorojo-ladoventanas.png
+
+newmtl ortoedificiocontechorojo-ladoventanasGlass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiocontechorojo-ladoventanas.png
+
+newmtl ortoedificiocontechorojo-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiocontechorojo-techo.png
+
+newmtl ortoedificiocontechorojo-techo-extension-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiocontechorojo-techo-extension-techo.png
+
+newmtl ortoedificiorojo-frontal
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiorojo-frontal.png
+
+newmtl ortoedificiorojo-frontalglass
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiorojo-frontal.png
+
+newmtl ortoedificiorojo-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiorojo-techo.png
+
+newmtl ortoedificiotechoceleste_-lado1ventana
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiotechoceleste-lado1ventana.png
+
+newmtl ortoedificiotechoceleste_-ladoventanas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiotechoceleste-ladoventanas.png
+
+newmtl ortoedificiotechoceleste_-ladoventanasGLASS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiotechoceleste-ladoventanas.png
+
+newmtl ortoedificiotechoceleste_-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortoedificiotechoceleste-techo.jpg
+
+newmtl ortotechocarcel-cuartitoeneltecho
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-cuartitoeneltecho.png
+map_d C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-cuartitoeneltecho.png
+
+newmtl ortotechocarcel-ladoventanas
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-ladoventanas.png
+
+newmtl ortotechocarcel-ladoventanas2
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-ladoventanas2.png
+
+newmtl ortotechocarcel-ladoventanas2GLASS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-ladoventanas2.png
+
+newmtl ortotechocarcel-ladoventanasGLASS
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-ladoventanas.png
+
+newmtl ortotechocarcel-techo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\ortotechocarcel-techo.png
+
+newmtl roadDirt
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\roadDirtmirror.jpg
+
+newmtl soilbase
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\BLENDER OBJECTS FOR PROJECT\\base-soil.jpg
+
+newmtl techolocalcomercialoxxo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\techolocalcomercialoxxo-Mod.png
+
+newmtl techolocalcomercialoxxo--acondicionadores
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\techolocalcomercialoxxo.png
+
+newmtl vitrinalocalcomercialoxxo
+Ns 225.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\Ali\\Desktop\\edificios drone\\vitrinalocalcomercialoxxo.png
